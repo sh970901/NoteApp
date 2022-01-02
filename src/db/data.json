@@ -1,0 +1,52 @@
+
+{
+    "days" : [
+        {"id": 1, "day": 1},
+        {"id": 2, "day": 2},
+        {"id": 3, "day": 3}
+    ],
+    "words": [
+        {
+            "id": 1,
+            "day": 1,
+            "eng": "book",
+            "kor": "책",
+            "isDone": false
+        },
+        {
+            "id": 2,
+            "day": 1,
+            "eng": "korea",
+            "kor": "한국",
+            "isDone": false
+        },
+        {
+            "id": 3,
+            "day": 2,
+            "eng": "pencil",
+            "kor": "연필",
+            "isDone": false
+        },
+        {
+            "id": 4,
+            "day": 2,
+            "eng": "desktop",
+            "kor": "컴퓨터",
+            "isDone": false
+        },
+        {
+            "id": 5,
+            "day": 3,
+            "eng": "mouse",
+            "kor": "쥐",
+            "isDone": false
+        },
+        {
+            "id": 6,
+            "day": 3,
+            "eng": "phone",
+            "kor": "휴대폰",
+            "isDone": false
+        }
+    ]
+}
