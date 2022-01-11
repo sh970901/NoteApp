@@ -15,6 +15,14 @@
     {
       "day": 4,
       "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
+    },
+    {
+      "day": 6,
+      "id": 6
     }
   ],
   "words": [
@@ -59,13 +67,6 @@
       "kor": "창문",
       "isDone": false,
       "id": 8
-    },
-    {
-      "day": "1",
-      "eng": "keyboard",
-      "kor": "키보드",
-      "isDone": false,
-      "id": 9
     },
     {
       "day": "2",

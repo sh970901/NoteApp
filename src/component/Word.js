@@ -46,7 +46,7 @@ export default function Word({ word: w }) { //props로 넘어온 word는 w로 �
         return null;
     }
     return (
-            <tr className={isDone ? 'off' : ''}>
+            <tr className={isDone ? "off" : ''}>
                 <td>
                     <input type="checkbox" checked={isDone}
                     onChange={toggleDone}></input>

@@ -1,8 +1,6 @@
 //import React from 'react'
 //커스텀 훅 만들기
 import { useEffect, useState } from 'react';
-
-
 export default function useFetch(url){
     
     const [data, setData] = useState([]);

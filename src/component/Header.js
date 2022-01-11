@@ -5,7 +5,8 @@ const Header = () => {
     return (
         <div className='header'>
             <h1>
-                <Link to = "/">토익 영단어(고급)</Link>
+                <Link to = "/">리액트를 이용한 단어 암기장
+                </Link>
             </h1>
             <div className='menu'>
                 <Link to= "/create_word" className='link'>
@@ -18,5 +19,4 @@ const Header = () => {
         </div>
     )
 }
-
 export default Header

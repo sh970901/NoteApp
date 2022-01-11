@@ -19,10 +19,12 @@ const Day = () => {
             setWords(data);
             console.log(data)
         })
-    }, [day]); //특정값 ${day}을 사용하였기 때문에 의존성문제때문에 day를 넣어줘야 ${day}이 값이 최신값임을 알게됨
+    }, [day]); //특정값 ${day}을 사용하였기 때문에 의존성문제때문에 
+                 //day를 넣어줘야 ${day}이 값이 최신값임을 알게됨
  
     
-//useParams 값은 App.js에 /:id라고하면 id값으로 받아오고 /:day라 하면 day값을 받아옴 console.log로 확인  
+//useParams 값은 App.js에 /:id라고하면 id값으로 받아오고 
+///:day라 하면 day값을 받아옴 console.log로 확인  
     return (
         <div>
             <h2>Day{day}</h2>
